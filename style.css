@@ -1,0 +1,24 @@
+.bg {
+  background-image: url("//picsum.photos/1900/500");
+  min-height:65vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.text-pop {
+  text-shadow: 2px 2px black;
+}
+
+@media screen and (min-width: 300px) {
+  html {
+    font-size: calc(11px + 6 * ((100vw - 320px) / 680));
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  html {
+    font-size: 20px;
+  }
+}
+
