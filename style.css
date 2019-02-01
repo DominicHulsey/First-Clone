@@ -1,5 +1,5 @@
 .bg {
-  background-image: url("//picsum.photos/1900/500");
+  background-image: url("//usbank.com/business-banking/_jcr_content/headerIpar/animatedHeader/secNav2/megaNavItem1Col3Par/image.img.jpg/1540436091378.jpg");
   min-height:65vh;
   background-position: center;
   background-repeat: no-repeat;
@@ -16,9 +16,30 @@
   }
 }
 
+@media screen and (max-width: 481px) {
+.bg {
+  min-height:100vh;
+}
+section div.row.text-white {
+  text-align:center;
+}
+}
+
 @media screen and (min-width: 1000px) {
   html {
     font-size: 20px;
   }
 }
 
+a .fab {
+  color:white; 
+}
+
+.link {
+  color:white;
+  text-decoration: underline;
+}
+
+p {
+  font-size:12px;
+}
